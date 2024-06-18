@@ -5,10 +5,40 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>HIDRA</title>
+  <link rel="stylesheet" href="./output.css">
+
+  <style>
+    body {
+      background-color: #302c42;
+      color: white;
+    }
+
+    .button_gradient {
+      background-image: linear-gradient(to right, #857bb4, #bbb2e3);
+    }
+  </style>
+
 </head>
 
-<body>
-
+<body class="p-5">
+  <header class="h-24 p-4 flex justify-between">
+    <div class="h-full flex justify-center items-center gap-3 cursor-pointer">
+      <img src="./assets/logo.png" alt="logo-icon" class="h-full">
+      <img src="./assets/logo(1).png" alt="logo-name" class="h-8 w-16">
+    </div>
+    <nav class="flex gap-4 font-medium text-sm">
+      <button class="hover:underline">ABOUT</button>
+      <button class="hover:underline">SERVICES</button>
+      <button class="hover:underline">TECHNOLOGIES</button>
+      <button class="hover:underline">HOW TO</button>
+    </nav>
+    <div class="flex gap-6">
+      <button class="rounded-full w-[150px] px-1 py-2 font-medium text-sm bg-transparent border-2">
+        CONTACT US
+      </button>
+      <button class="rounded-full w-[150px] px-1 py-2 font-medium text-sm button_gradient">JOIN HYDRA</button>
+    </div>
+  </header>
 </body>
 
 </html>

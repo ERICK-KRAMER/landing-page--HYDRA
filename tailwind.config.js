@@ -11,6 +11,7 @@ module.exports = {
         secondary: "#2a2639",
         gradient: '#3A3456',
         gradient2: '#211E2E',
+        gradient3: '#302C42'
       }
     },
   },
